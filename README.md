@@ -44,7 +44,9 @@ plt.plot(xx, f(xx), '--')
 plt.show()
 ```
 Trong đó ta `xx` là tập hợp điểm trong khoảng ta muốn vẽ, `plt.plot(x, y, 'ro')` biểu diễn hàm thực tế với chấm đỏ và `plt.plot(xx, f(xx), '--')` là hàm xấp xỉ biểu diễn bởi đường kẻ
-![alt](https://jp.mathworks.com/help/examples/curvefit/win64/FitPolynomialExample_02.png)
+
+'![alt](https://jp.mathworks.com/help/examples/curvefit/win64/FitPolynomialExample_02.png)'
+
 **Nhận xét**
 * Để ý rằng khi bạn xấp xỉ một hàm số từ các mốc nội suy bằng một đa thức thì bậc của đa thức càng lớn thì sai số càng nhỏ. Tuy nhiên trong thực tế điều nay không hề tốt vì gây ra hiện tượng **Overfiting**, ta có thể khắc phục điều này bằng nhiều cách như LASSO, Ridge Regression,...
 ![Ví dụ về overfitting](https://datascience.foundation/img/pdf_images/underfitting_and_overfitting_in_machine_learning_image.png)
