@@ -1,3 +1,4 @@
+# BÌNH PHƯƠNG TỐI THIỂU
 Bình phương tối thiểu là một dạng phân tích hồi qui toán học được sử dụng để xác định đường biểu diễn phù hợp nhất cho một tập dữ liệu, cung cấp một phép minh họa trực quan về mối quan hệ giữa các điểm dữ liệu trong tập dữ liệu. 
 ## Cài đặt
 Muốn chạy được code thì phải cài các thư viện numpy, matplotlib,.. như sau
